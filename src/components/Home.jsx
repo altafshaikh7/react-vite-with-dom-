@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
           We provide modern solutions for web, mobile, and design.  
           Build your dream project with us today!
         </p>
-        <a href="/services" className="btn btn-primary btn-lg mt-3">
+        <Link to="/services" className="btn btn-primary btn-lg mt-3">
           Explore Services
-        </a>
+        </Link>
       </div>
     </div>
   );
